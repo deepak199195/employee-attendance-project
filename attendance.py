@@ -12,3 +12,5 @@ with open('data.csv', 'r') as file:
 
 attendance_percentage = (present_days / total_days) * 100
 print("Attendance Percentage:", attendance_percentage)
+print("Total Days:", total_days)
+print("Present Days:", present_days)
